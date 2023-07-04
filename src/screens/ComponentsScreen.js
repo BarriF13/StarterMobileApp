@@ -2,7 +2,7 @@ import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
 const ComponentsScreen = () => {
-  const greeting="Bella";
+  const greeting="Loca";
   const array = ["ass", 123]
   const greetMe = <Text>mana mana doodoodoodoo</Text>
 
