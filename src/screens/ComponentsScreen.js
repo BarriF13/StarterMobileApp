@@ -1,6 +1,7 @@
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
+
 const ComponentsScreen = () => {
   const greeting="Loca";
   const array = ["ass", 123]
