@@ -17,7 +17,7 @@ switch(action.type){
   case "change_blue":
     return state.blue + action.payload >255 || state.blue + action.payload <0 ? state: {...state, blue: state.blue + action.payload };   default:
     return state;
-}
+  }
 }
 //dispatch == runMyReducer
 
