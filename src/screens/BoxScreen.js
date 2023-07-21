@@ -15,7 +15,7 @@ viewStyle:{
   borderWidth:3,
   borderColor:"black",
   height:200,
-  alignItems: "center",
+
 },
 textOneStyle: {
   borderWidth:2,
@@ -23,9 +23,8 @@ textOneStyle: {
 },
 textTwoStyle: {
   borderWidth:2,
-  borderColor:"red",
-position:"absolute",
-
+  borderColor:"yellow",
+...StyleSheet.absoluteFillObject
 },
 textThreeStyle: {
   borderWidth:2,
